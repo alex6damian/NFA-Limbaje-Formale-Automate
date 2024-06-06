@@ -24,7 +24,7 @@ def validation(content):
     if len(content['S'])>1:
         return False
     return True
-file=cs112_passer.load_file("dfa2.cfg")
+file=cs112_passer.load_file("input.cfg")
 section=cs112_passer.get_section_list(file)
 if(validation(section)==True):
     print("NFA valid")
